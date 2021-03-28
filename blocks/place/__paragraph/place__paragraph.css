@@ -1,3 +1,10 @@
 .place__paragraph {
-    
+    margin: 0;
+    font-size: 18px;
+    line-height: 29.34px;
+    font-weight: 400;
+}
+
+.place__paragraph:first-child{
+    padding-bottom: 26px;
 }
