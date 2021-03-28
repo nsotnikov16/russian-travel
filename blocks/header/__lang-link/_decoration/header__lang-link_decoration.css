@@ -1,3 +1,4 @@
 .header__lang-link_decoration {
-    
+    text-decoration: none;
+    padding-left: 18px;
 }
