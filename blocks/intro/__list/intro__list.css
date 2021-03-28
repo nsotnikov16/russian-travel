@@ -1,3 +1,7 @@
 .intro__list {
-    
+    white-space: pre-line;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;;
 }
