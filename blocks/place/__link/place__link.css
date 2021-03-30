@@ -4,5 +4,10 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
-    color: white;
+    color: #ffffff;
+    transition: opacity 1s ease;
+}
+
+.place__link:hover{
+    opacity: 0.8;
 }
