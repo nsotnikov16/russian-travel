@@ -1,5 +1,5 @@
 .place {
-    padding-bottom: 92px;
+    padding-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: repeat(2, minmax(min-content, max-content));
@@ -20,6 +20,7 @@
 
 @media (max-width: 768px){
     .place {
+        padding-bottom: 73px;
         gap: 48px 28px;
     }
 }
@@ -29,5 +30,6 @@
         grid-template-columns: repeat(auto-fit, minmax(min-content, 300px));
         grid-template-rows: none;
         gap: 0;
+        padding-bottom: 50px;
     }
 }

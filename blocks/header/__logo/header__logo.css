@@ -1,6 +1,7 @@
 .header__logo {
     max-width: 176px;
     background-image: url(../../../images/header-logo.svg);
+    background-size: 100% 100%;
 }
 
 @media (max-width: 320px) {
