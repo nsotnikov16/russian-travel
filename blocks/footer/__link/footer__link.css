@@ -7,4 +7,16 @@
     font-size: 16px;
     line-height: 18px;
     padding-right: 18px;
+    transition: opacity 0.5s ease;
+}
+
+.footer__link:hover{
+    opacity: 0.5;
+}
+
+@media (max-width: 715px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        padding-right: 0;
 }

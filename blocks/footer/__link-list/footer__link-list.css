@@ -1,3 +1,13 @@
 .footer__link-list {
-    margin: 0;
+    margin: 0;  
+}
+
+@media (max-width: 715px) {
+    .footer__link-list {
+        padding-bottom: 32px;
+    }
+
+    .footer__link-list:last-of-type {
+        padding-bottom: 0;
+    }
 }

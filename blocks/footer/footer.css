@@ -2,3 +2,15 @@
     margin: 0 48px;
     padding-bottom: 24px;
 }
+
+@media (max-width: 768px) {
+    .footer {
+        margin: 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+        margin: 0 16px;
+    }
+}

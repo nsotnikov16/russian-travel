@@ -4,3 +4,10 @@
     list-style-type: none;
     display: flex;
 }
+
+@media (max-width: 715px) {
+    .footer__links {
+        flex-direction: column;
+        padding-bottom: 48px;
+    }
+}
