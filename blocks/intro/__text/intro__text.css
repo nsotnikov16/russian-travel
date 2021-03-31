@@ -7,6 +7,12 @@
     padding-bottom: 33px;
 }
 
+@media (max-width: 768px) {
+    .intro__text {
+        max-width: 100vw;
+    }
+}
+
 @media (max-width: 320px) {
     .intro__text {
         padding-bottom: 33px;
