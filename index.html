@@ -6,13 +6,13 @@
   <link rel="stylesheet" href="pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
+<body class="body">
   <div class="page">
     <header class="header">
         <img src="images/header-logo.svg" alt="Логотип" class="header__logo">
         <div class="header__links">
-            <a href="#" target="_self" class="header__lang-link">Ru</a>
-            <a href="#" target="_self" class="header__lang-link header__lang-link_decoration">En</a>
+            <a href="#" target="_self" class="header__lang-link header__lang-link_decoration">Ru</a>
+            <a href="#" target="_self" class="header__lang-link">En</a>
         </div>
     </header>
     <main class="content">
@@ -20,19 +20,19 @@
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <img src="images/lead-polka.jpg" alt="Путь" class="lead__image">
-            <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
+            <p class="lead__caption">Ваша полка - верхняя</p>
         </section>
-        <article class="intro page__container">
+        <section class="intro page__container">
             <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
-                <li class="intro__row"><span class="intro__row intro__row_bold">Часовых поясов</span> 11</li>
-                <li class="intro__row"><span class="intro__row intro__row_bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
-                <li class="intro__row"><span class="intro__row intro__row_bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-                <li class="intro__row"><span class="intro__row intro__row_bold">Природных заповедников</span> 105</li>
-                <li class="intro__row"><span class="intro__row intro__row_bold">Аэропортов</span> 241</li>
+                <li class="intro__row"><span class="intro__bold">Часовых поясов</span> 11</li>
+                <li class="intro__row"><span class="intro__bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                <li class="intro__row"><span class="intro__bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                <li class="intro__row"><span class="intro__bold">Природных заповедников</span> 105</li>
+                <li class="intro__row"><span class="intro__bold">Аэропортов</span> 241</li>
             </ul>
-        </article>
+        </section>
         <section class="photo-grid">
                 <img src="images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__item">
                 <img src="images/photo-grid-atharva-tulsi.jpg" alt="Атхарва-тулси" class="photo-grid__item">
@@ -51,13 +51,13 @@
             <div class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
-                    <h4 class="place__url-heading">URL</h4>
+                    <h3 class="place__url-heading">URL</h3>
                     <a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
                 </div>
                 <img src="images/place-kosa.jpg" alt="Куршская коса" class="place__image">
                 <div class="place__paragraphs">
                     <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
-                    <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
+                    <p class="place__paragraph">На этом Калининградская&nbsp;область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
             </div>
             <div class="place">
@@ -115,22 +115,19 @@
         </section>
         <section class="cover page__container">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__overlay">
-                <h2 class="cover__title">До Байкала
-                    «на собаках»</h2>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе
-                    — путешествие от столицы до Байкала
-                    на электричках.</p>
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
+                <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе — путешествие от столицы до Байкала на электричках.</p>
             </a>
         </section>
     </main>
     <footer class="footer">
         <div class="footer__container">
             <nav class="footer__links">
-                <p class="footer__link-list"><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></p>
-                <p class="footer__link-list"><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></p>
-                <p class="footer__link-list"><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></p>
-                <p class="footer__link-list"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></p>
-                <p class="footer__link-list"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></p>
+                <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
+                <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
+                <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
+                <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
+                <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
             </nav>
             <p class="footer__copyright">© 2020. Впишите своё имя</p>
         </div>

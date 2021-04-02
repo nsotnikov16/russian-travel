@@ -27,4 +27,8 @@
         padding-bottom: 0;
         padding-top: 32px;
     }
+    .place__paragraph:nth-of-type(2n){
+        padding-top: 25px;
+        max-width: 280px;
+    }
 }
